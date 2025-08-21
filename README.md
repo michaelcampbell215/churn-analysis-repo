@@ -7,6 +7,26 @@ This project aims to predict whether a bank customer will churn (i.e., leave the
 The analysis and model development are detailed in the `bank churn_predictive_model.ipynb` Jupyter Notebook.
 
 ---
+# Dataset
+
+The dataset used for this project is `Bank_churn_modelling.csv`. It contains 10,000 records of bank customers with the following attributes:
+
+-   `RowNumber`: Row number
+-   `CustomerId`: Unique identifier for each customer
+-   `Surname`: Customer's last name
+-   `CreditScore`: Customer's credit score
+-   `Geography`: Customer's country (France, Spain, Germany)
+-   `Gender`: Customer's gender
+-   `Age`: Customer's age
+-   `Tenure`: Number of years the customer has been with the bank
+-   `Balance`: Customer's account balance
+-   `NumOfProducts`: Number of bank products the customer uses
+-   `HasCrCard`: Whether the customer has a credit card (1=Yes, 0=No)
+-   `IsActiveMember`: Whether the customer is an active member (1=Yes, 0=No)
+-   `EstimatedSalary`: Customer's estimated salary
+-   `Exited`: Whether the customer churned (1=Yes, 0=No) - **This is the target variable.**
+
+---
 
 ## Workflow
 
